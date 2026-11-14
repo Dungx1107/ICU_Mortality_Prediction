@@ -1,0 +1,58 @@
+# =====================================
+# PYTHON & MÔI TRƯỜNG ẢO
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+
+# =====================================
+# IDE & HỆ ĐIỀU HÀNH
+# =====================================
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+*.swp
+*.swo
+.history/
+
+# macOS / Windows OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =====================================
+# JUPYTER NOTEBOOK
+# =====================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# =====================================
+# ĐẶC THÙ DỰ ÁN ML & Y TẾ (QUAN TRỌNG)
+# =====================================
+# Không đưa dữ liệu thô và dữ liệu xử lý lên Git (tránh nặng ổ đĩa và bảo mật dữ liệu eICU)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Không đưa các file trọng số mô hình nặng lên Git
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Không đưa các biểu đồ/kết quả xuất thô lên Git
+outputs/*
+!outputs/.gitkeep
