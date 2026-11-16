@@ -56,3 +56,7 @@ checkpoints/*
 # Không đưa các biểu đồ/kết quả xuất thô lên Git
 outputs/*
 !outputs/.gitkeep
+
+document/references/*
+!document/references/.gitkeep
+!document/DATA_PROCESSING.md
