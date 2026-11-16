@@ -46,7 +46,7 @@ Kết quả: **2.326 bệnh nhân** trong cohort cuối cùng (từ 2.520 ban đ
 - Áp dụng cohort filtering (mục 2).
 - **Plausibility filter:**
   - `admissionweight`: chỉ giữ `[20, 300]` kg.
-  - `admissionheight`: chỉ giữ `[100, 230]` cm.
+  - `admissionheight`: chỉ giữ `[100, 250]` cm.
   - Giá trị ngoài khoảng → `NaN` (không xóa dòng).
 - **Feature engineering:**
   - `bmi = weight / (height/100)²`, chỉ tính khi cả hai hợp lệ.
