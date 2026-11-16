@@ -192,6 +192,7 @@ ICU_Mortality_Prediction/
 ├── document/              # tài liệu, bài báo tham khảo
 └── outputs/               # kết quả mô hình
 ---
+```
 
 ## 7. Ghi chú kỹ thuật
 
@@ -202,3 +203,4 @@ ICU_Mortality_Prediction/
 - **Plausibility filter không xóa dòng**, chỉ gán `NaN` — giữ tối đa thông tin.
 - **Không merge với cohort ở bước xử lý từng bảng** — mỗi bảng lưu độc lập,
   merge cuối cùng một lần trong `merge_features.ipynb`.
+---
