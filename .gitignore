@@ -46,8 +46,12 @@ Thumbs.db
 # Không đưa dữ liệu thô và dữ liệu xử lý lên Git (tránh nặng ổ đĩa và bảo mật dữ liệu eICU)
 data/raw/*
 !data/raw/.gitkeep
+
 data/processed/*
 !data/processed/.gitkeep
+
+data/splits/*
+!data/splits/.gitkeep
 
 # Không đưa các file trọng số mô hình nặng lên Git
 checkpoints/*
@@ -55,8 +59,11 @@ checkpoints/*
 
 # Không đưa các biểu đồ/kết quả xuất thô lên Git
 outputs/*
-!outputs/.gitkeep
+!outputs/plots
 
 document/references/*
 !document/references/.gitkeep
 !document/DATA_PROCESSING.md
+
+models/*
+!models/.gitkeep
